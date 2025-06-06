@@ -48,7 +48,7 @@ echo "OLLAMA_HOST=seu_host_ollama" >> .env
 docker-compose up
 ```
 
-Para instruções detalhadas sobre como usar o DeepWiki com Ollama e Docker, veja [Instruções do Ollama](Ollama-instruction.md).
+Para instruções detalhadas sobre como usar o DeepWiki com Ollama e Docker, veja [Instruções do Ollama (em inglês)](Ollama-instruction.md).
 
 > 💡 **Onde obter essas chaves:**
 > - Obtenha uma chave API Google no [Google AI Studio](https://makersuite.google.com/app/apikey)
@@ -289,7 +289,7 @@ Então simplesmente execute:
 docker-compose up
 ```
 
-**Considerações de Segurança do Caminho de Logging:** Em ambientes de produção, garanta que o diretório `api/logs` e qualquer caminho de arquivo de log personalizado estejam protegidos com permissões de sistema de arquivos e controles de acesso apropriados. O aplicativo impeõe que `LOG_FILE_PATH` resida dentro do diretório `api/logs` do projeto para evitar travessia de caminho ou escritas não autorizadas.
+**Considerações de Segurança do Caminho de Logging:** Em ambientes de produção, garanta que o diretório `api/logs` e qualquer caminho de arquivo de log personalizado estejam protegidos com permissões de sistema de arquivos e controles de acesso apropriados. O aplicativo impõe que `LOG_FILE_PATH` resida dentro do diretório `api/logs` do projeto para evitar travessia de caminho ou escritas não autorizadas.
 
 ## 🔧 Configuração Avançada
 
